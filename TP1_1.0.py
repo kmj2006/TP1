@@ -1,4 +1,5 @@
 def squared(n):
+    print (n*n , n*n*n , n*n*n*n)
 
 def gugudan(i):
 
