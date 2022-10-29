@@ -8,22 +8,27 @@ def gugudan(i):
     return a
 def abs_num(k):
     print(abs(k))
-
+    return
 def sigma(n, k):
-
+    sum=0
+    for i in range(k,n+1):
+        sum+=(i*i)
+    print(sum)
 def main():
 <<<<<<< HEAD
+<<<<<<< HEAD
+
 =======
-    mode= int(input()):
+    k,n,i = map(int,input().split())
+    mode = int(input()):
     if mode == 1:
         squared(n)
     elif mode == 2:
-        i = int(input())
-        print(gugudan(i))
-    elif mode == 3:
+        gugudan(i)
+    elif mode ==3:
         abs_num(k)
-    elif mode == 4:
+    elif mode ==4:
         sigma(n,k)
->>>>>>> 6ed6aaffbb8d55b7d010b3691eda4b5b49b7ef99
+
 if __name__=="__main__":
     main()
