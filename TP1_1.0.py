@@ -1,5 +1,6 @@
 a=[]
 def squared(n):
+    print (n*n , n*n*n , n*n*n*n)
 
 def gugudan(i):
     for x in range(1,10):
